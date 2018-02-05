@@ -10,14 +10,19 @@
   </head>
 
   <body>
+
+  <header>
+    <button class="hamburger">&#9776;</button>
+    <button class="cross">&#735;</button>
+  </header>
+
+  <div class="menu">
     <ul>
       <li class="active"><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Category", new_category_path %></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
+      <li><%= link_to "Customer Feedback", root_path %></li>
+      <li><%= link_to "Job Inquiry", root_path %></li>
     </ul>
-
+  </div>
 
     <%= yield %>
   </body>

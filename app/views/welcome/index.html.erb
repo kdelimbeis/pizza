@@ -1,23 +1,29 @@
 <!-- <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p> -->
 
-<div class="top-background">
+<div class="top-background background-border">
 
 </div>
 
 <div class="welcome-images">
-  <div class="welcome1"></div>
-  <div class="welcome2"></div>
-  <div class="welcome3"></div>
-  <div class="welcome4"></div>
-  <div class="welcome5"></div>
+  <div class="welcome1 images-border"></div>
+  <div class="welcome2 images-border"></div>
+  <div class="welcome3 images-border"></div>
+  <div class="welcome4 images-border"></div>
+  <div class="welcome5 images-border"></div>
 </div>
 
 
+<div class="bottom-background background-border">
+  <div class="name">Wadsworth Pizzeria</div>
+  <div class="phone">Call: 215-248-0445</div>
+  <div class="address">1523 E. Wadsworth Ave, Philadelphia</div>
+</div>
+
 <div class="category-container">
 <% @categories.each do |c| %>
-    <div class="categories">
-      <p><%= link_to c.name, categories_path  %></p>
-    </div>
+    <span class="flex-container">
+      <p><%= link_to c.name, category_items_path(c.id)  %></p>
+    </span>
 <% end %>
 </div>
