@@ -1,5 +1,7 @@
 class ItemsController < ApplicationController
   def index
+    @category = Category.find(params[:category_id])
+    @items = Category.find(params[:category_id]).items.order('created_at ASC')
   end
 
   def show
@@ -25,7 +27,7 @@ class ItemsController < ApplicationController
 
 private
   def item_params
-    params.require(:item).permit(:name, :price, :description)
+    params.require(:item).permit(:name, :price, :price2, :price3, :description)
   end
 
 end

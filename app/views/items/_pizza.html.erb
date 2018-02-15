@@ -1,0 +1,38 @@
+
+<div class="pizza-menu">
+
+  <table class="table-body">
+      <thead>
+          <th>Name</th>
+          <th class="description">Description</th>
+          <th>10" 6 Slices</th>
+          <th>14" 8 Slices</th>
+          <th>16" 8 Slices</th>
+
+      </thead>
+      <tbody>
+        <% @items.each do |i| %>
+          <tr>
+              <td><%= i.name %></td>
+              <td class="description"><%= i.description %></td>
+              <td><%= number_to_currency(i.price) %></td>
+              <td><%= number_to_currency(i.price2) %></td>
+              <td><%= number_to_currency(i.price3) %></td>
+
+          </tr>
+
+        <% end %>
+      </tbody>
+  </table>
+</div>
+
+<div class="toppings">
+    <p style="font-size:25px; color:blue;">Choice of Toppings:</p>
+    <p style="font-size:20px;">Extra-Cheese, Pepperoni, Sausage, Ground Beef, Mushrooms, Olives, Ham, Tomatoes, Red Onions, Green Peppers, Spinach, Broccoli, Black Olives, Bacon Bits, Anchovies, Turkey Bacon, Hot Peppers, Pineapple, Ricotta Cheese, Feta Cheese</p>
+</div>
+
+<div class="food-container">
+  <div class="pizza pizza1"></div>
+  <div class="pizza pizza2"></div>
+  <div class="pizza pizza3"></div>
+</div>

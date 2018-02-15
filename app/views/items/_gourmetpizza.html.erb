@@ -1,0 +1,34 @@
+
+<div class="pizza-menu">
+
+  <table class="table-body">
+      <thead>
+          <th>Name</th>
+          <th class="description">Description</th>
+          <th>10" 6 Slices</th>
+          <th>14" 8 Slices</th>
+          <th>16" 8 Slices</th>
+
+      </thead>
+      <tbody>
+        <% @items.each do |i| %>
+          <tr>
+              <td><%= i.name %></td>
+              <td class="description"><%= i.description %></td>
+              <td><%= number_to_currency(i.price) %></td>
+              <td><%= number_to_currency(i.price2) %></td>
+              <td><%= number_to_currency(i.price3) %></td>
+
+          </tr>
+
+        <% end %>
+      </tbody>
+  </table>
+</div>
+
+
+<div class="food-container">
+  <div class="pizza gourmet1"></div>
+  <div class="pizza gourmet2"></div>
+  <div class="pizza gourmet3"></div>
+</div>
