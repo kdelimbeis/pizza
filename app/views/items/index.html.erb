@@ -2,7 +2,49 @@
 <p>Find me in app/views/items/index.html.erb</p> -->
 
 <% if @category.id == 1 %>
-  <%= render 'pizza' %>
-<% elsif @category.id == 2 %>
-  <%= render 'gourmetpizza' %>
+    <%= render 'pizza' %>
+  <% elsif @category.id == 2 %>
+    <%= render 'gourmetpizza' %>
+  <% elsif @category.id == 3 %>
+    <%= render 'strombolis' %>
+  <% elsif @category.id == 4 %>
+    <%= render 'burgers' %>
+  <% elsif @category.id == 5 %>
+    <%= render 'hoagies' %>
+  <% elsif @category.id == 6 %>
+    <%= render 'grinders' %>
+  <% elsif @category.id == 7 %>
+    <%= render 'sandwiches' %>
+  <% elsif @category.id == 8 %>
+    <%= render 'club' %>
+  <% elsif @category.id == 9 %>
+    <%= render 'quesadillas' %>
+  <% elsif @category.id == 10 %>
+    <%= render 'steaks' %>
+  <% elsif @category.id == 11 %>
+    <%= render 'chicken-steaks' %>
+  <% elsif @category.id == 12 %>
+    <%= render 'wraps' %>
+  <% elsif @category.id == 13 %>
+    <%= render 'buffalo' %>
+  <% elsif @category.id == 14 %>
+    <%= render 'wings' %>
+  <% elsif @category.id == 15 %>
+    <%= render 'gyros' %>
+  <% elsif @category.id == 16 %>
+    <%= render 'salads' %>
+  <% elsif @category.id == 17 %>
+    <%= render 'chicken-platters' %>
+  <% elsif @category.id == 18 %>
+    <%= render 'seafood-platters' %>
+  <% elsif @category.id == 19 %>
+    <%= render 'pasta' %>
+  <% elsif @category.id == 20 %>
+    <%= render 'sides' %>
+  <% elsif @category.id == 21 %>
+    <%= render 'kids' %>
+  <% elsif @category.id == 22 %>
+    <%= render 'desserts' %>
+  <% elsif @category.id == 23 %>
+    <%= render 'beverages' %>
 <% end %>

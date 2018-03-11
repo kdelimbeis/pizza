@@ -63,10 +63,8 @@
   .flex-container > p {
     background-color: #f1f1f1;
     // width: 100%;
-
     text-align: center;
-    font-size: 15px;
-
+    font-size: 10px;
   }
   ul{
     width: 30%;
@@ -88,7 +86,7 @@
     display: block;
     width: 20%;
     height: 100%;
-    overflow: auto;
+    // overflow: auto;
     float: right;
   }
 
@@ -107,10 +105,13 @@
   .welcome5{
     background: image-url("wrap.jpg");
   }
-  .welcome1, .welcome2, .welcome3, .welcome4, .welcome5{
+  .welcome6{
+    background: image-url("salad2.jpg");
+  }
+  .welcome1, .welcome2, .welcome3, .welcome4, .welcome5, .welcome6 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 19%;
+    height: 20%;
   }
   .category-container{
     float: left;
@@ -152,13 +153,11 @@
   .flex-container > p {
     background-color: #f1f1f1;
     // width: 100%;
-
     text-align: center;
-    font-size: 25px;
-
+    font-size: 15px;
   }
   .images-border{
-    border:1px solid #ccc!important
+    border:2px solid #ccc!important
   }
 
   header{
@@ -224,26 +223,11 @@
   .welcome-images{
     width: 20%;
     height: 100%;
-    overflow: auto;
+    // overflow: auto;
     float: right;
   }
 
-  .welcome1{
-    background: image-url("pizza.jpg");
-  }
-  .welcome2{
-    background: image-url("cheesesteak.jpeg");
-  }
-  .welcome3{
-    background: image-url("stromboli.jpeg");
-  }
-  .welcome4{
-    background: image-url("hoagie.jpg");
-  }
-  .welcome5{
-    background: image-url("wrap.jpg");
-  }
-  .welcome1, .welcome2, .welcome3, .welcome4, .welcome5{
+  .welcome1, .welcome2, .welcome3, .welcome4, .welcome5, .welcome6 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 19%;
@@ -278,8 +262,6 @@
   font-size: 30px;
   }
   .flex-container {
-
-
     width: 25%;
     align-content: space-between;
     background: image-url("red-background.png");
@@ -289,13 +271,11 @@
   .flex-container > p {
     background-color: #f1f1f1;
     // width: 100%;
-
     text-align: center;
-    font-size: 30px;
-
+    font-size: 20px;
   }
   .images-border{
-    border:1px solid #ccc!important;
+    border:2px solid #ccc!important;
   }
   ul{
     width: 15%;
