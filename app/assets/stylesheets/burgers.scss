@@ -7,3 +7,14 @@
 .burgers3{
   background: image-url("cheeseburger.jpg");
 }
+
+.deluxe {
+    border-style: solid;
+    border-color: green;
+}
+
+@media all and (min-width: 1024px){
+  .deluxe{
+    margin-left: 15%;
+  }
+}
