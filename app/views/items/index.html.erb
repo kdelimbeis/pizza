@@ -1,5 +1,7 @@
 <!-- <h1>Items#index</h1>
 <p>Find me in app/views/items/index.html.erb</p> -->
+<body class="items-page">
+
 
 <% if @category.id == 1 %>
     <%= render 'pizza' %>
@@ -50,3 +52,6 @@
   <% else %>
     <%= render 'specials' %>
 <% end %>
+
+
+</body>
