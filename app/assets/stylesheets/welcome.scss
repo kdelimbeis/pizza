@@ -3,17 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-// .background-border{
-//   border:3px solid #ccc!important
-// }
-
 @media all and (min-width: 320px){
-  .menu{
-    display: none;
-  }
-  .cross{
-    display: none;
-  }
+  // .menu{
+  //   display: none;
+  // }
+  // .cross{
+  //   display: none;
+  // }
   .top-background{
     background: image-url("pizza-outside.jpg");
     background-repeat: no-repeat;
@@ -66,9 +62,6 @@
     text-align: center;
     font-size: 8px;
   }
-  ul{
-    width: 30%;
-  }
 
 }
 @media all and (min-width: 768px){
@@ -81,6 +74,7 @@
     width: 80%;
     margin-left: 0;
     float: left;
+    margin-top: 5%;
   }
   .welcome-images{
     display: block;
@@ -88,6 +82,7 @@
     height: 100%;
     // overflow: auto;
     float: right;
+    margin-top: 5%;
   }
 
   .welcome1{
@@ -167,47 +162,45 @@
   	line-height:40px;
   	border-bottom:1px solid #dddddd;
   }
-  .hamburger{
-    background:none;
-    position:absolute;
-    top:0;
-    right:0;
-    line-height:45px;
-    padding:5px 15px 0px 15px;
-    color:#999;
-    border:0;
-    font-size:1.4em;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-  }
-  .cross{
-    background:none;
-    position:absolute;
-    top:0px;
-    right:0;
-    padding:7px 15px 0px 15px;
-    color:#999;
-    border:0;
-    font-size:3em;
-    line-height:65px;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-  }
-  ul{
-    width: 20%;
-  }
+  // .hamburger{
+  //   background:none;
+  //   position:absolute;
+  //   top:0;
+  //   right:0;
+  //   line-height:45px;
+  //   padding:5px 15px 0px 15px;
+  //   color:#999;
+  //   border:0;
+  //   font-size:1.4em;
+  //   font-weight:bold;
+  //   cursor:pointer;
+  //   outline:none;
+  //   z-index:10000000000000;
+  // }
+  // .cross{
+  //   background:none;
+  //   position:absolute;
+  //   top:0px;
+  //   right:0;
+  //   padding:7px 15px 0px 15px;
+  //   color:#999;
+  //   border:0;
+  //   font-size:3em;
+  //   line-height:65px;
+  //   font-weight:bold;
+  //   cursor:pointer;
+  //   outline:none;
+  //   z-index:10000000000000;
+  // }
+
 }
 @media all and (min-width: 1024px){
-  .cross{
-    display: block;
-  }
-  .hamburger{
-    display: none;
-  }
+  // .cross{
+  //   display: block;
+  // }
+  // .hamburger{
+  //   display: none;
+  // }
   .menu{
     display: block;
   }
@@ -218,6 +211,7 @@
     height: 275px;
     width: 65%;
     margin-left: 15%;
+    margin-top: 0%;
     float: left;
   }
   .welcome-images{
@@ -225,6 +219,7 @@
     height: 100%;
     // overflow: auto;
     float: right;
+    margin-top: 0%;
   }
 
   .welcome1, .welcome2, .welcome3, .welcome4, .welcome5, .welcome6 {
@@ -277,7 +272,5 @@
   .images-border{
     border:2px solid #ccc!important;
   }
-  ul{
-    width: 15%;
-  }
+
 }
