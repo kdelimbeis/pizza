@@ -23,7 +23,7 @@ html, body { height: 100% }
        list-style-type: none;
        margin: 0;
        padding: 0;
-       background-color: #f1f1f1;
+       background-color: #cc9900;
        position: fixed;
        height: 5%;
        width: 100%;
@@ -31,6 +31,7 @@ html, body { height: 100% }
        top: 0;
        right: 0;
        left: 0;
+       font-size: 13px;
    }
    ul li{
      display: inline;
@@ -84,6 +85,9 @@ html, body { height: 100% }
  }
 
  @media all and (min-width: 768px){
+   ul{
+     font-size: 20px;
+   }
    table {
        border-collapse: collapse;
        width: 100%;
@@ -118,6 +122,9 @@ html, body { height: 100% }
  }
 
  @media all and (min-width: 1024px){
+   ul{
+     font-size: 15px;
+   }
    body {
        margin: 0;
    }
